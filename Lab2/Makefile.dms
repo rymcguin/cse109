@@ -1,0 +1,6 @@
+all: //targeta targetb targetc
+	g++ main.cpp hello.cpp factorial.cpp -o hello
+
+targeta:
+	g++ targeta.cpp -o targeta
+	
